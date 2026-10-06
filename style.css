@@ -1,0 +1,224 @@
+@keyframes mario{
+    0%{left:160px;
+    bottom: 16%;}
+    10%{left:350px;
+    bottom:16%}
+    15%{bottom:22%;
+        left:350px;
+    }
+    20%{bottom:16%;
+    }
+    40%{bottom:16%;}
+    45%{left:560px;
+    bottom: 16%;}
+    50%{bottom:35%;
+    left:650px;}
+    55%{left:650px;
+        bottom:35%;
+    }
+    60%{bottom:42%;
+        left:650px;
+    }
+    65%{
+        bottom:35%;
+        left:650px;
+    }
+    70%{ bottom:30%;
+        left:770px;
+        bottom:16%;
+    }
+    
+    100%{
+        left:1010px;
+        bottom:16%;
+    }
+
+
+    
+    
+}
+@keyframes coin{
+  0%{top:250px;
+    left:365px;}
+    25%{
+        top:250px;
+    left:365px;
+    }
+    50%{
+        top:150px;
+    left:365px;
+    }
+    70%{top:150px;
+    left:365px;
+    } 100%{
+        top:150px;
+    left:365px;
+    }
+    
+    
+}
+@keyframes mushroom{
+    0%{
+    
+    left:655px;
+    top:160px;
+    }
+    45%{
+        left:655px;
+    top:100px;
+    }
+    55%{
+        left:655px;
+    top:100px;
+    }
+    60%{
+        left:655px;
+    top:100px;
+    }
+    
+    
+}
+
+
+#brick{
+    width:100%;
+    margin-left:-10px;
+    height:8vh;
+    bottom:0;
+    border: 3px dashed white;
+    position: absolute;
+    
+    
+    background: url(brickwall.jpeg);
+}
+#block{
+    position: absolute;
+    width:170px;
+    border: 3px dashed white;
+    top:250px;
+    left:300px;
+    z-index:2;
+}
+#question{
+    position: fixed;
+    width:55px;
+    top:250px;
+    left:360px;
+    border:3px dashed white;
+    z-index:2;
+
+}
+#q2{
+    position: fixed;
+    z-index: 1;
+    width:55px;
+    bottom:60%;
+    left:650px;
+    
+    
+}
+#cloud3{
+    position: absolute;
+    left:940px;
+    top:250px;
+    width:140px;
+
+}
+#cloud2{
+    position: absolute;
+    left:480px;
+    top:24px;
+    width:120px;
+
+    
+}
+#levup{
+    position:fixed;
+    width:150px;
+    right:10%;
+    top:30px;
+}
+#mush{
+    position:fixed;
+    z-index: 1;
+
+    width:40px;
+    left:655px;
+    top:160px;
+    animation-name: mushroom;
+    animation-duration: 10s;
+    animation-delay: 5s;
+}
+#bushf{
+    position: fixed;
+    width: 160px;
+    left:1030px;
+    bottom: 12%;
+}
+#grass{
+    position: fixed;
+    bottom: 16%;
+    left:130px;
+    width: 80px;
+}
+#pipe{
+    position: fixed;
+    width:80px;
+    height: 100px;
+    left:640px;
+    bottom:16%;
+    z-index: 2;
+}
+#bush1{
+    position:fixed;
+    width:100px;
+    z-index: 2;
+    left:400px;
+    bottom: 17%;
+}
+#coin{
+    width:40px;
+    border-radius:50px;
+    border:2px dashed white;
+    position:fixed;
+    top:250px;
+    left:365px;
+    z-index:1;
+    animation-name:coin;
+    animation-duration: 10s;
+}
+
+#brick2{
+    
+    width:100%;
+    margin-left:-10px;
+    height:8vh;
+    bottom:40px;
+    border: 3px dashed white;
+
+    position: absolute;
+    margin-top:240px;
+    
+    background: url(brickwall.jpeg);
+}
+body{
+    background: url(sky.jpeg);
+}
+#cloud{
+    position: fixed;
+    left:140px;
+    margin-top:120px;
+    width:150px;
+    
+}
+#mario{
+    width:60px;
+    position: absolute;
+    bottom:16%;
+    
+    z-index:3;
+    animation-name: mario;
+    animation-duration: 10s;
+    animation-timing-function: ease-in;
+    
+}
